@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"C:/Program Files/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls, javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "PainterHbq",
+            "request": "launch",
+            "mainClass": "hust.soict.dsai.javafx.PainterHbq",
+            "projectName": "GUIProject_b9588f01",
+            "vmArgs": "--module-path \"C:/Program Files/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls, javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "AWTAccumulatorHbq",
+            "request": "launch",
+            "mainClass": "hust.soict.dsai.swing.AWTAccumulatorHbq",
+            "projectName": "GUIProject_b9588f01"
+        },
+        {
+            "type": "java",
+            "name": "NumberGridHbq",
+            "request": "launch",
+            "mainClass": "hust.soict.dsai.swing.NumberGridHbq",
+            "projectName": "GUIProject_b9588f01"
+        },
+        {
+            "type": "java",
+            "name": "SwingAccumulatorHbq",
+            "request": "launch",
+            "mainClass": "hust.soict.dsai.swing.SwingAccumulatorHbq",
+            "projectName": "GUIProject_b9588f01"
+        }
+    ]
+}
